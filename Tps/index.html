@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form class="formLibro">
+        <label for="notaM">Ingrese la nota de matematica:</label>
+        <input class="inputdatos" type="text" name="notaM" id="notaM">
+
+        <label for="notaL">Ingrese la nota de lengua:</label>
+        <input class="inputdatos" type="text" name="notaL" id="notaL">
+
+        <label for="notaE">Ingrese la nota de EFSI:</label>
+        <input class="inputdatos" type="text" name="notaE" id="notaE">
+
+        <button type="button" onclick="calcularPromedio()">Calcular promedio</button>
+        <button type="button" onclick="notaMasAlta()">Mayor Nota</button>
+    </form>
+
+    <div id="resultado"> <h1>  </h1></div>
+
+    <script src="index.js"></script>
+</body

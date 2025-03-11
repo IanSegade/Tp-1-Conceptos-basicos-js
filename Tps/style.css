@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #A4D7E2; /* Fondo celeste */
+    color: #333333; /* Texto oscuro para mejor contraste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333333; /* Texto oscuro */
+}
+
+/* Estilos para el formulario */
+.formLibro {
+    width: 80%;
+    max-width: 400px;
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: #333333; /* Texto oscuro */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333333; /* Texto oscuro */
+}
+
+/* Estilos para los inputs */
+.inputdatos {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #A4D7E2; /* Borde celeste */
+    border-radius: 8px;
+    background-color: #f4f4f4; /* Fondo gris claro para los inputs */
+    color: #333333; /* Texto oscuro para los inputs */
+    font-size: 16px;
+}
+
+.inputdatos::placeholder {
+    color: #888888; /* Texto claro para el placeholder */
+}
+
+/* Estilos para los botones */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #A4D7E2; /* Fondo celeste */
+    color: #333333; /* Texto oscuro */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8cbec5; /* Tonalidad más oscura de celeste al pasar el mouse */
+}
+
+/* Estilos para el div de resultado */
+#resultado {
+    width: 80%;
+    max-width: 400px;
+    background-color: #ffffff; /* Fondo blanco para el resultado */
+    color: #333333; /* Texto oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+#resultado h1 {
+    margin: 0;
+    font-size: 24px;
+}
